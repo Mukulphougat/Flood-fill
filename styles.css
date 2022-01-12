@@ -61,7 +61,10 @@
 .title {
     margin: 20px;
 }
+#row, #column {
+    font-family: 'Roboto Mono', monospace;
 
+}
 .grid {
     display: inline-grid;
     border-radius: 5px;
