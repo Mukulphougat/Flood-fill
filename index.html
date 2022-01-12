@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"></link>
+    <script src="script.js" type="module"></script>
+    <title>Grid</title>
+</head>
+<body>
+<div class="main">
+    <div class="button-container">
+<!--        <button class="click-fill">Fill By Click</button>-->
+        <button class="btnFill">Fill</button>
+        <button class="btnFloodFill">FloodFill</button>
+        <button class="btnRes">Reset</button>
+        <input id="row" type="number" placeholder="row" min="1" max="9">
+        <input id="column" type="number" placeholder="column" min="1" max="9">
+        <input id="first_num" type="color">
+        <input id="second_num" type="color">
+        <div id="xy"></div>
+    </div>
+    <div class="grid"></div>
+        <p class="info-p" align="justify">
+            Flood fill is an algorithm mainly used to
+            determine a bounded area connected to a given node
+            in a multi-dimensional array. It is a close resemblance
+            to the bucket tool in paint programs.
+            <br><br>
+            Fill: It will fill whole grid with color from first color input box.
+            <br><br>
+            FloodFill: To start flood-fill.
+            <br><br>
+            Reset: It will restore.
+            <br><br>
+            InputBox: Enter row number for flood-fill.
+            <br><br>
+            InputBox: Enter column number for flood-fill.
+            <br><br>
+            ColorInput1: Choose color we want to fill in grid.
+            <br><br>
+            ColorInput2: Choose color for flood-fill.
+            <br><br>
+            Label: It will show the row number and column where we clicked.
+        </p>
+</div>
+</body>
+</html>
