@@ -109,6 +109,7 @@
 
 
 .info-p {
+    display: flex;
     border: 2px solid skyblue;
     width: 380px;
     height: 460px;
@@ -124,4 +125,210 @@
     padding-top: 0;
     margin-top: 0;
     box-shadow: 10px 10px 10px skyblue;
+}
+
+@media screen and (max-width: 480px) {
+    .main {
+        flex-direction: column;
+        gap: 5px;
+
+    }
+    .button-container {
+        padding: 5px;
+        width: 100vw;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: 2px solid slateblue;
+    }
+    .btnFill, .btnRes {
+        border: 2px solid black;
+        width: 50px;
+        height: 30px;
+        border-radius: 10px;
+        font-size: 10px;
+        font-weight: bold;
+
+        /*align-self: flex-start;*/
+        /*margin-left: 350px;*/
+        font-family: 'Roboto Mono', monospace;
+    }
+    .btnFloodFill {
+        border: 2px solid black;
+        width: 70px;
+        height: 30px;
+        border-radius: 10px;
+        font-size: 10px;
+        font-weight: bold;
+
+        /*align-self: flex-start;*/
+        /*margin-left: 350px;*/
+        font-family: 'Roboto Mono', monospace;
+    }
+    #first_num, #second_num {
+        width: 50px;
+        height: 30px;
+    }
+    .grid {
+        width: 100vw;
+        margin: unset;
+    }
+    .info-p  {
+        width: 100vw;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+@media screen and (max-width: 1081px) and (min-width: 1070px){
+    .main {
+        flex-direction: column;
+        gap: 5px;
+
+    }
+    .button-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: 2px solid slateblue;
+    }
+    .btnFill, .btnRes {
+        border: 2px solid black;
+        width: 50px;
+        height: 30px;
+        border-radius: 10px;
+        font-size: 10px;
+        font-weight: bold;
+
+        /*align-self: flex-start;*/
+        /*margin-left: 350px;*/
+        font-family: 'Roboto Mono', monospace;
+    }
+    .btnFloodFill {
+        border: 2px solid black;
+        width: 70px;
+        height: 30px;
+        border-radius: 10px;
+        font-size: 10px;
+        font-weight: bold;
+
+        /*align-self: flex-start;*/
+        /*margin-left: 350px;*/
+        font-family: 'Roboto Mono', monospace;
+    }
+    #first_num, #second_num {
+        width: 50px;
+        height: 30px;
+    }
+
+    .grid {
+        width: 100vw;
+        margin: unset;
+    }
+
+    .info-p {
+        width: 100vw;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1025px) {
+    .main {
+        flex-direction: column;
+        gap: 5px;
+
+    }
+    .button-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: 2px solid slateblue;
+    }
+    .btnFill, .btnRes {
+        border: 2px solid black;
+        width: 50px;
+        height: 30px;
+        border-radius: 10px;
+        font-size: 10px;
+        font-weight: bold;
+
+        /*align-self: flex-start;*/
+        /*margin-left: 350px;*/
+        font-family: 'Roboto Mono', monospace;
+    }
+    .btnFloodFill {
+        border: 2px solid black;
+        width: 70px;
+        height: 30px;
+        border-radius: 10px;
+        font-size: 10px;
+        font-weight: bold;
+
+        /*align-self: flex-start;*/
+        /*margin-left: 350px;*/
+        font-family: 'Roboto Mono', monospace;
+    }
+    #first_num, #second_num {
+        width: 50px;
+        height: 30px;
+    }
+
+    .grid {
+        width: 100vw;
+        margin: unset;
+    }
+
+    .info-p {
+        width: 100vw;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 281px) and (min-width: 270px) {
+    .main {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .button-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: 2px solid slateblue;
+    }
+    .btnFill, .btnRes {
+        border: 2px solid black;
+        width: 50px;
+        height: 30px;
+        border-radius: 10px;
+        font-size: 10px;
+        font-weight: bold;
+
+        /*align-self: flex-start;*/
+        /*margin-left: 350px;*/
+        font-family: 'Roboto Mono', monospace;
+    }
+    .btnFloodFill {
+        border: 2px solid black;
+        width: 70px;
+        height: 30px;
+        border-radius: 10px;
+        font-size: 10px;
+        font-weight: bold;
+
+        /*align-self: flex-start;*/
+        /*margin-left: 350px;*/
+        font-family: 'Roboto Mono', monospace;
+    }
+    #first_num, #second_num {
+        width: 50px;
+        height: 30px;
+    }
+
+    .grid {
+        width: 100vw;
+        margin: unset;
+    }
+    .info-p {
+        width: 100vw;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
 }
