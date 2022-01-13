@@ -139,8 +139,6 @@
         padding: 5px;
         width: 100vw;
         flex-direction: row;
-        flex-wrap: wrap;
-        border: 2px solid slateblue;
     }
     .btnFill, .btnRes {
         border: 2px solid black;
@@ -177,7 +175,11 @@
     .info-p  {
         width: 100vw;
         overflow: hidden;
-        white-space: nowrap;
+    }
+    #xy {
+        width: 100px;
+        overflow: hidden;
+
     }
 }
 @media screen and (max-width: 1081px) and (min-width: 1070px){
@@ -228,7 +230,11 @@
     .info-p {
         width: 100vw;
         overflow: hidden;
-        white-space: nowrap;
+    }
+    #xy {
+        width: 100px;
+        overflow: hidden;
+
     }
 }
 
@@ -280,7 +286,10 @@
     .info-p {
         width: 100vw;
         overflow: hidden;
-        white-space: nowrap;
+    }
+    #xy {
+        width: 100px;
+overflow: hidden;
     }
 }
 
@@ -330,7 +339,9 @@
     .info-p {
         width: 100vw;
         overflow: hidden;
-        white-space: nowrap;
     }
-
+    #xy {
+        width: 100px;
+        overflow: hidden;
+    }
 }
