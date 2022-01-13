@@ -105,6 +105,8 @@
     color: black;
     padding: 0 0 0 2px;
     border: 1px solid red;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 
