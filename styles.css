@@ -174,7 +174,7 @@
         padding: unset;
     }
     .info-p  {
-        margin-left: unset;
+        margin-left: 10px;
         width: 100vw;
         overflow: hidden;
         margin-top: 10px;
@@ -235,7 +235,7 @@
     .info-p {
         width: 100vw;
         align-self: flex-start;
-        margin-left: unset;
+        margin-left: 10px;
         margin-top: 10px;
         transform: unset;
     }
@@ -295,7 +295,7 @@
 
     .info-p {
         width: 100vw;
-        margin-left: unset;
+        margin-left: 10px;
         overflow: hidden;
         margin-top: 10px;
         transform: unset;
@@ -352,7 +352,7 @@ overflow: hidden;
     }
     .info-p {
         width: 100vw;
-        margin-left: unset;
+        margin-left: 1opx;
         overflow: hidden;
         margin-top: 10px;
         transform: unset;
