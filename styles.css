@@ -170,16 +170,19 @@
     }
     .grid {
         width: 100vw;
-        margin: unset;
+        margin-left: unset;
+        padding: unset;
     }
     .info-p  {
+        margin-left: unset;
         width: 100vw;
         overflow: hidden;
+        margin-top: 10px;
+        transform: unset;
     }
     #xy {
         width: 100px;
         overflow: hidden;
-
     }
 }
 @media screen and (max-width: 1081px) and (min-width: 1070px){
@@ -224,12 +227,17 @@
 
     .grid {
         width: 100vw;
-        margin: unset;
+        margin-left: unset;
+        padding: unset;
+
     }
 
     .info-p {
         width: 100vw;
-        overflow: hidden;
+        align-self: flex-start;
+        margin-left: unset;
+        margin-top: 10px;
+        transform: unset;
     }
     #xy {
         width: 100px;
@@ -280,12 +288,17 @@
 
     .grid {
         width: 100vw;
-        margin: unset;
+        margin-left: unset;
+        padding: unset;
+
     }
 
     .info-p {
         width: 100vw;
+        margin-left: unset;
         overflow: hidden;
+        margin-top: 10px;
+        transform: unset;
     }
     #xy {
         width: 100px;
@@ -334,11 +347,16 @@ overflow: hidden;
 
     .grid {
         width: 100vw;
-        margin: unset;
+        margin-left: unset;
+        padding: unset;
     }
     .info-p {
         width: 100vw;
+        margin-left: unset;
         overflow: hidden;
+        margin-top: 10px;
+        transform: unset;
+
     }
     #xy {
         width: 100px;
