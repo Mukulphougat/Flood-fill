@@ -1,4 +1,3 @@
-
 export function createBoard(Board_size) {
     const board = []
     for ( let i = 0 ; i < Board_size ; i++ ) {
@@ -25,6 +24,7 @@ export function floodFill(i,j,board,size,oldCol,newCol) {
     if( i < 0 || j < 0 || i >= size || j >= size || board[i][j].element.style.backgroundColor === newCol ) return;
     if( board[i][j].element.style.backgroundColor != oldCol ) return;
     board[i][j].element.style.backgroundColor = newCol;
+    board[i][j].element.classList.add("changing");
 
     floodFill(i-1,j,board,size,oldCol,newCol)
     floodFill(i+1,j,board,size,oldCol,newCol)

@@ -56,6 +56,11 @@ document.querySelector('.btnRes').addEventListener('click',() =>{
     x.value = null
     y.value = null
     rc.innerText = ""
+    for ( let i = 0 ; i < board.length ; i++ ) {
+        for ( let j = 0 ; j < board[0].length ; j++ ) {
+            board[i][j].element.classList.remove("changing");
+        }
+    }
     fillBoard("white")
 })
 

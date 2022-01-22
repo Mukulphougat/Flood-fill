@@ -33,6 +33,7 @@
 .click-fill:hover {
     background: wheat;
 }
+
 .btnFill, .btnFloodFill, .btnRes {
     border: 2px solid black;
     width: 150px;
@@ -90,7 +91,9 @@
     -webkit-box-shadow: 10px 10px 16px #000000;
     box-shadow: 10px 10px 16px #000000;
 }
-
+.changing {
+    transition: background-color 800ms ease-in-out;
+}
 #row, #column {
     border: 2px solid black;
     width: 100px;
